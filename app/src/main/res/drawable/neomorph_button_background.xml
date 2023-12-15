@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <!-- Fondo exterior -->
+        <shape android:shape="rectangle">
+            <corners android:radius="20dp" />
+            <solid android:color="#E3E7F7" /> <!-- Color del fondo -->
+        </shape>
+    </item>
+    <item android:left="2dp" android:top="2dp">
+        <!-- Sombra superior e izquierda -->
+        <shape android:shape="rectangle">
+            <corners android:radius="20dp" />
+            <solid android:color="#FFFFFF" /> <!-- Color de la sombra -->
+        </shape>
+    </item>
+    <item android:right="2dp" android:bottom="2dp">
+        <!-- Sombra inferior y derecha -->
+        <shape android:shape="rectangle">
+            <corners android:radius="20dp" />
+            <solid android:color="#A0A0A0" /> <!-- Color de la sombra -->
+        </shape>
+    </item>
+</layer-list>
